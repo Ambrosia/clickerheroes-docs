@@ -1,191 +1,55 @@
 # Save format
 
-## skillWildGold
-`Integer`
-
-## skillGoldBonus
-`Integer`
-
-## debug
-`Boolean`
-
-## goldQuestsCompleted
-`Integer`
-
-## rubyQuestsCompleted
-`Integer`
-
-## lastPageLoadTime
-`null`?
-
-## skillDouble
-`Boolean`
-
-Whether energise is currently active or not.
-
-## relicQuestsCompleted
-`Integer`
-
-## skillClickMultiplierEnd
-`Integer`
-
-## usedSkills
-`Object`
-
-The key is the skill ID, the value is always `true`.
-The skills currently on cooldown. When not on cooldown, the skills will not
-be shown in the object.
-
-
-## skillClickMultiplier
+## abaddonMultiplier
 `Float`
 
-## gold
-`Scientific`
+## account
+`null`
 
-## lastSkillUsed
-`Integer`
+## accountId
+`null`
 
-The skill that has its cooldown reduced by an hour when reload is used.
-
-## rubies
-`Integer`
-
-## skillQuestsCompleted
-`Integer`
-
-## transcendent
-`Boolean`
-
-Whether the player has transcended or not.
-
-## secondToLastSkillUsed
-`Integer`
-
-The skill that has its cooldown reduced by an hour when energised reload is
-used.
-
-## historicRubies
-`Integer`
-
-## collectedAchievements
+## achievements
 `Object`
 
-Deprecated?
+The key is the achievement ID, the value is a `Boolean`
+(true if achieved, false otherwise).
 
-## totalMoneySpent
+## actionBar
+`Object`
+
+## activityCount
+`Integer`
+
+## activityRoller
+`null`
+
+## adCampaign
+`null`
+
+## adRetargetId
+`null`
+
+## adRetargetTime
+`Integer`
+
+## allDpsMultiplier
 `Float`
 
-Amount of money player has spent on the game.
+## ancientEntrySizes
+`Object`
 
-## baseCriticalClickChance
+## ancientSouls
 `Integer`
 
-Critical click chance when lucky strikes isn't active.
+The amount of unspent ancient souls the player currently has.
 
-## lastLoadTime
-`null`
-
-## numPageLoads
-`null`
-
-## totalCreditsPurchased
-`null`
-
-## persistentVars
-
-### pwbWon
+## ancientSoulsTotal
 `Integer`
 
-### christmasSaleBuys
-`Integer`
+The amount of ancient souls, spent or unspent, the player has.
 
-### previousPermaAdsTimestamp
-`Integer`
-
-### pwbPlayed
-`Integer`
-
-### allVisualEffects
-`Boolean`
-
-### previousEventAdsTimestamp
-`Integer`
-
-### pwbClosest
-`Integer`
-
-### preloadAds
-`Boolean`
-
-### previousMainScreenAdsTimestamp
-`Integer`
-
-### bloopCoins
-`Integer`
-
-### karma
-`Integer`
-
-### fullscreen
-`Boolean`
-
-### bloopCoinRequestDonationTimestamp
-`Integer`
-
-### showBossDefeatHelp
-`Boolean`
-
-### pwbHelp
-`Boolean`
-
-### showLevel100Help
-`Boolean`
-
-### didPurchaseSkill
-`Boolean`
-
-### showPrimalBossHelp
-`Booolean`
-
-### didUseSkill
-`Boolean`
-
-### goldNotificationsEnabled
-`Boolean`
-
-### showGildedHeroHelp
-`Boolean`
-
-### didOpenShop
-`Boolean`
-
-### cooldownNotificationsEnabled
-`Boolean`
-
-### showItemHelp
-`Boolean`
-
-### didOpenAncientScreen
-`Boolean`
-
-### mercenaryNotificationsEnabled
-`Boolean`
-
-### didOpenOnlineSave
-`Boolean`
-
-### nextRatePromptTime
-`Integer`
-
-### bossDefeatHelpTimestamp
-`Integer`
-
-### didShowTranscendenceNews
-`Boolean`
-
-### halloweenSaleBuys
-`Integer`
+The highest zone the player has been to across all transcensions.
 
 ## ancients
 `Object`
@@ -237,37 +101,174 @@ The key is the ancient ID, the value is an `Object` in the following form:
 ### numPurchased
 `Integer`
 
-## primateAdminMessages
+## appliedDLC
 `Object`
 
-## heroSoulQuestsCompleted
+## autoclickerSkins
+`Object`
+
+The key is the skin ID, the value is whether or not the player has the skin.
+If the player does not have the skin, it won't show in this object anyway.
+
+## autoclickers
 `Integer`
 
-## hasSeenZone100Top
-`null`
+## baseClickDamage
+`Integer`
 
-## adCampaign
-`null`
+## baseCriticalClickChance
+`Integer`
 
-## worldGoldBonus
-`null`
+Critical click chance when lucky strikes isn't active.
 
-## achievements
+## buyExactQuantity
+`Boolean`
+
+## clickDpsPercent
+`Float`
+
+## clickMultiplier
+`Integer`
+
+## collectedAchievements
 `Object`
 
-The key is the achievement ID, the value is a `Boolean`
-(true if achieved, false otherwise).
+Deprecated?
 
-## total5MinuteQuests
+## collectedRaidRewardDates
+`Object`
+
+This object contains the dates of the last two times a raid was completed
+and whether the reward has been collected by the player or not.
+The key is a `Date` (`yyyy-mm-dd`) and the value is a `Boolean`.
+
+## creationTimestamp
 `Integer`
 
 ## criticalMultiplier
 `Integer`
 
+## currentActivityOrderNumber
+`null`
+
+## currentAutoclickerSkin
+`Integer`
+
+Value is skin ID.
+
+## currentZoneHeight
+`Integer`
+
+The zone the player is currently on.
+
+## damageFloatersDisabled
+`Boolean`
+
+Whether the click damage text is shown after the player clicks.
+For some reason, it looks like there is no option for this in the game.
+
+## darkRitualClicks
+`Integer`
+
+## debug
+`Boolean`
+
+## devGifts
+`Object`
+
+## didClickOnAncientsTab
+`Boolean`
+
+Resets every transcension.
+
+## didClickOnMercenaryTab
+`Boolean`
+
+Resets every transcension.
+
+## didClickOnShopTab
+`Boolean`
+
+Deprecated?
+
+## didClickOnTranscendenceTab
+`Boolean`
+
+Resets every transcension.
+
+## dlcAutoclickers
+`Integer`
+
+## dpsSacrificedInWorldResets
+`null`
+
+## email
+`String`
+
+## epicHeroReceivedUpTo
+`Integer`
+
+The highest zone the player has received a gild from.
+
+## epicHeroSeed
+`Integer`
+
+## epicRoller
+`Object`
+
+### numUses
+`Integer`
+
+### seed
+`Integer`
+
+## extraGildsAwarded
+`Integer`
+
+Number of purchased gilds that the player has been given this transcension.
+
+## finishedPrimals
+`Object`
+
+The key is the zone number, the value is whether the primal has been defeated
+or not.
+
+## freeRespecs
+`Integer`
+
+## gold
+`Scientific`
+
+## goldFloatersDisabled
+`Boolean`
+
+## goldMultiplier
+`Float`
+
+## goldQuestsCompleted
+`Integer`
+
+## goldSacrificedInWorldResets
+`null`
+
+## hasJoinedGuild
+`Boolean`
+
+Not sure if this works properly.
+
+## hasSeenNewShopItems
+`Boolean`
+
+## hasSeenZone100Tip
+`null`
+
 ## heroCollection
 `Object`
 
-### maxSize
+### _currentUids
+`Object`
+
+#### heroes
 `Integer`
 
 ### heroes
@@ -297,25 +298,13 @@ Whether the hero is locked (see Gilded window).
 
 Number of guilds this hero currently has.
 
-### _currentUids
+### maxSize
+`Integer`
+
+## heroEntrySizes
 `Object`
 
-#### heroes
-`Integer`
-
-## treasureChestsKilled
-`Integer`
-
-## remoteQueue
-`null`
-
-## leeroyJenkinsBuried
-`Integer`
-
-## rarestMercenaryEver
-`Integer`
-
-## adRetargetTime
+## heroSoulQuestsCompleted
 `Integer`
 
 ## heroSouls
@@ -324,522 +313,52 @@ Number of guilds this hero currently has.
 The amount of hero souls the player currently has
 (not the amount of hero souls the player receives after ascension).
 
-## totalRelicsReceived
-`Integer`
+## heroSoulsSacrificed
+`Scientific`
 
-## highestMercenaryLevelEver
-`Integer`
-
-## adRetargetId
-`null`
-
-## upgrades
-`Object`
-
-The key is the upgrade ID, the value is maybe whether the player has purchased
-it or not (I have no idea).
-
-## ancientSouls
-`Integer`
-
-The amount of unspent ancient souls the player currently has.
-
-## highestFinishZonePersist
-`Integer`
-
-The highest zone the player has been to this transcension.
-
-## activityRoller
-`null`
+## hideRelicPopups
+`Boolean`
 
 ## highestFinishedZone
 `Integer`
 
 The highest zone the player has been to this ascension.
 
-## ancientsSoulsTotal
+## highestFinishedZonePersist
 `Integer`
 
-The amount of ancient souls, spent or unspent, the player has.
-
-## pretranscendentHighestFinishedZone
-`Integer`
-
-## mercenaryCount
-`Integer`
-
-## paidForRubyMultiplier
-`Boolean`
-
-Whether the player has the 2x damage bonus from the shop.
-
-## relicsReceivedThisTranscension
-`Integer`
-
-## revision
-`null`
-
-## transcendentHighestFinishZone
-`Integer`
-
-The highest zone the player has been to across all transcensions.
-
-## numberOfTranscensions
-`Integer`
-
-## titanDamage
-`Scientific`
-
-## heroSoulsSacrificed
-`Scientific`
-
-## actionBar
-`Object`
-
-## totalHeroSouls
-`Scientific`
-
-## ticketsUsed
-`Object`
-
-## tutorialArrow
-`Integer`
-
-## totalClicks
-`Integer`
-
-## currentZoneHeight
-`Integer`
-
-The zone the player is currently on.
-
-## activityCount
-`Integer`
-
-## totalGold
-`Scientific`
-
-The total amount of gold the player has ever earned.
-
-## lastRaidTimestamp
-`Integer`
-
-## goldFloatersDisabled
-`Boolean`
+The highest zone the player has been to this transcension.
 
 ## highestGold
 `Scientific`
 
 The highest amount of gold held by the player this transcension.
 
-## lastGuildRankUpdatedTime
+## highestHistoricAncients
 `Integer`
 
-## numRaidsToday
+## highestMercenaryLevelEver
 `Integer`
 
-## transparentAutoclickerMode
+## historicRubies
+`Integer`
+
+## isBanned
 `Boolean`
 
-## totalGoldThisGame
-`Scientific`
-
-The amount of gold earned by the player this ascension.
-
-## collectedRaidRewardDates
-`Object`
-
-This object contains the dates of the last two times a raid was completed
-and whether the reward has been collected by the player or not.
-The key is a `Date` (`yyyy-mm-dd`) and the value is a `Boolean`.
-
-## damageFloatersDisabled
+## isCheater
 `Boolean`
 
-Whether the click damage text is shown after the player clicks.
-For some reason, it looks like there is no option for this in the game.
-
-## totalKills
-`Float`
-
-## titanTypesDefeated
-`Object`
-
-## tinyMonsters
+## isTestUser
 `Boolean`
-
-## totalBossKills
-`Integer`
-
-## purchaseHashes
-`Object`
-
-## email
-`String`
-
-## totalUpgrades
-`Integer`
-
-## rubyClickablesThisAscension
-`Integer`
-
-## syncedGameServices
-`Boolean`
-
-## buyExactQuantity
-`Boolean`
-
-## totalHeroLevels
-`Integer`
-
-## hideRelicPopups
-`Boolean`
-
-## lastAdBonusTimestamp
-`Integer`
-
-## primeNumberGenerator
-`Object`
-
-### numUses
-`Integer`
-
-### seed
-`Integer`
-
-## account
-`null`
-
-## heroEntrySizes
-`Object`
-
-## baseClickDamage
-`Integer`
-
-## outsiderEntrySizes
-`Object`
-
-## totalCrits
-`Integer`
-
-## devGifts
-`Object`
-
-## mostClicksPerSecond
-`Integer`
-
-## epicRoller
-`Object`
-
-### numUses
-`Integer`
-
-### seed
-`Integer`
-
-## totalPrimalsKilled
-`Integer`
-
-## finishedPrimals
-`Object`
-
-The key is the zone number, the value is whether the primal has been defeated
-or not.
-
-## mostCritsPerSecond
-`Integer`
-
-## ancientEntrySizes
-`Object`
-
-## purchasedTitanFightExpTime
-`Integer`
-
-## uniqueId
-`String`
-
-## maxDps
-`Scientific`
-
-## totalHeroSoulsFromAscensions
-`Scientific`
-
-## passwordHash
-`String`
-
-## soundsEnabled
-`Boolean`
-
-## mercenaries
-`Object`
-
-### hasGivenOneFreeRecruit
-`Boolean`
-
-### startRecruitTime
-`Boolean`
-
-### mercRoller
-`Object`
-
-#### numUses
-`Integer`
-
-#### seed
-`Integer`
-
-### questRoller
-`Object`
-
-#### numUses
-`Integer`
-
-#### seed
-`Integer`
-
-### questOptions
-`Object`
-
-### _currentUids
-`null`
-
-### mercenaries
-`Object`
-
-The key is the index and the value is an `Object` in the following form:
-
-#### lastQuestRewardType
-`Integer`
-
-#### level
-`Integer`
-
-#### statId
-`Integer`
-
-#### createTime
-`Integer`
-
-#### roller
-`Object`
-
-numUses: `Integer`
-
-seed: `Integer`
-
-#### assetId
-`Integer`
-
-The appearance of the mercenary.
-
-#### rarity
-`Integer`
-
-#### phrase1
-`String`
-
-#### lastQuestGoldRewardQty
-`Integer`
-
-#### bonusLives
-`Integer`
-
-Amount of bonus lives this mercenary currently has.
-
-#### phrase2
-`String`
-
-Death phrase.
-
-#### lastQuestRewardQty
-`Float`
-
-#### lastQuestSuccessChance
-`Float`
-
-#### name
-`String`
-
-#### slotId
-`Integer`
-
-The order this mercenary appears in inside the mercenaries tab. Zero-indexed.
-
-#### questResult
-`Integer`
-
-#### lastQuestStartTime
-`Integer`
-
-Timestamp of when the last quest was started.
-
-#### updateChecked
-`Boolean`
-
-#### experience
-`Float`
-
-#### lastQuestDuration
-`Integer`
-
-Number of sections the last quest lasted for.
-
-#### hasUpdate
-`Boolean`
-
-#### timeToDie
-`Integer`
-
-Number of seconds on q eust before this mercenary dies.
-
-#### creationEquipped
-`Boolean`
-
-## hasJoinedGuild
-`Boolean`
-
-Not sure if this works properly.
-
-## prevLoginTimestamp
-`Integer`
-
-## stageQuality
-`Boolean`
-
-Flash quality setting.
-
-## personalSales
-`Object`
-
-### flashSalesEnabled
-`Boolean`
-
-### _largestPurchaseBundleId
-`Integer`
-
-### _numHistoricSales
-`Integer`
-
-### seasonalSalesEnabled
-`Boolean`
-
-### _saleEndTimestamp
-`Integer`
-
-## timelapses
-`Integer`
-
-## clickMultiplier
-`Integer`
 
 ## items
 `Objects`
 
 AKA relics.
 
-### items
-`Object`
-
-The key is the item ID, the value is an `Object` in the following form:
-
-#### bonusType4
-`Integer`
-
-The ID of the fourth bonus. 0 or null if there isn't a bonus.
-
-#### bonusType1
-`Integer`
-
-The ID of the first bonus. 0 or null if there isn't a bonus.
-
-#### bonus3Distribution
-`Integer`
-
-#### bonus1Level
-`Float`
-
-The number of levels the first bonus gives.
-
-#### isNew
-`Boolean`
-
-Whether the player has seen the relic's stats or not.
-
-#### rarity
-`Integer`
-
-#### bonus4Distribution
-`Integer`
-
-#### bonus2Level
-`Float`
-
-The number of levels the second bonus gives.
-
-#### uid
-`Integer`
-
-#### upgradeCount
-`Integer`
-
-#### bonus3Level
-`Float`
-
-The number of levels the third bonus gives.
-
-#### name
-`String`
-
-#### type
-`String`
-
-#### bonusType2
-`Integer`
-
-The ID of the second bonus. 0 or null if there isn't a bonus.
-
-#### bonus1Distribution
-`Integer`
-
-#### level
-`Integer`
-
-#### bonusType3
-`Integer`
-
-The ID of the third bonus. 0 or null if there isn't a bonus.
-
-#### bonus4Level
-`Integer`
-
-The number of levels the fourth bonus gives.
-
-#### imageId
-`Integer`
-
-#### bonus2Distribution
-`Integer`
-
-### slots
-`Object`
-
-The key is the slot number, the value is the item (relic) ID.
-
-### equipmentSlots
-`Integer`
-
-Number of slots the player has, filled or not.
-
 ### _currentUids
 `Object`
-
-#### items
-`Integer`
-
-### gotAscensionItem
-`Boolean`
-
-Whether the player got their free relic this ascension or not.
 
 ### ascensionItemsRoller
 `Object`
@@ -861,10 +380,15 @@ This is to decide which zone the player gets their free ascension relic.
 #### seed
 `Integer`
 
-### salvagePoints
+### equipmentSlots
 `Integer`
 
-Forge cores.
+Number of slots the player has, filled or not.
+
+### gotAscensionItem
+`Boolean`
+
+Whether the player got their free relic this ascension or not.
 
 ### guildItemsRoller
 `Object`
@@ -875,81 +399,295 @@ Forge cores.
 #### seed
 `Integer`
 
-## kongId
+### items
+`Object`
+
+The key is the item ID, the value is an `Object` in the following form:
+
+#### bonus1Distribution
+`Integer`
+
+#### bonus2Distribution
+`Integer`
+
+#### bonus3Distribution
+`Integer`
+
+#### bonus4Distribution
+`Integer`
+
+#### bonus1Level
+`Float`
+
+The number of levels the first bonus gives.
+
+#### bonus2Level
+`Float`
+
+The number of levels the second bonus gives.
+
+#### bonus3Level
+`Float`
+
+The number of levels the third bonus gives.
+
+#### bonus4Level
+`Integer`
+
+The number of levels the fourth bonus gives.
+
+#### bonusType1
+`Integer`
+
+The ID of the first bonus. 0 or null if there isn't a bonus.
+
+#### bonusType2
+`Integer`
+
+The ID of the second bonus. 0 or null if there isn't a bonus.
+
+#### bonusType3
+`Integer`
+
+The ID of the third bonus. 0 or null if there isn't a bonus.
+
+#### bonusType4
+`Integer`
+
+The ID of the fourth bonus. 0 or null if there isn't a bonus.
+
+#### imageId
+`Integer`
+
+#### isNew
+`Boolean`
+
+Whether the player has seen the relic's stats or not.
+
+#### level
+`Integer`
+
+#### name
 `String`
 
-## allDpsMultiplier
-`Float`
-
-## purchasedGilds
+#### rarity
 `Integer`
 
-## soulsSpent
+#### type
+`String`
+
+#### uid
 `Integer`
 
-## goldMultiplier
-`Float`
-
-## loginValidated
-`Boolean`
-
-## extraGildsAwarded
+#### upgradeCount
 `Integer`
 
-Number of purchased gilds that the player has been given this transcension.
+### slots
+`Object`
 
-## primalSouls
-`Scientific`
+The key is the slot number, the value is the item (relic) ID.
 
-## clickDpsPercent
-`Float`
-
-## isTestUser
-`Boolean`
-
-## respondedToSurvey
-`Boolean`
-
-This is about the Clicker Heroes 2 survey I think.
-
-## creationTimestamp
+#### items
 `Integer`
 
-## abaddonMultiplier
-`Float`
-
-## latestBuildLoaded
+### salvagePoints
 `Integer`
 
-## respondedToEmailSequelPrompt
-`Boolean`
+Forge cores.
 
-## epicHeroReceivedUpTo
-`Integer`
-
-The highest zone the player has received a gild from.
-
-## startTimestamp
-`Integer`
+## kongId
+`String`
 
 ## language
 `null`
 
-## musicEnabled
-`Boolean`
-
-## transcensionTimestamp
+## lastAdBonusTimestamp
 `Integer`
 
-Time of the most recent transcension.
+## lastGuildRankUpdatedTime
+`Integer`
+
+## lastLoadTime
+`null`
+
+## lastPageLoadTime
+`null`?
+
+## lastPrimalLevelChecked
+`Integer`
 
 ## lastPrimalLevelResult
 `Boolean`
 
-## hasSeenNewShopItems
+## lastRaidTimestamp
+`Integer`
+
+## lastSkillUsed
+`Integer`
+
+The skill that has its cooldown reduced by an hour when reload is used.
+
+## latestBuildLoaded
+`Integer`
+
+## leeroyJenkinsBuried
+`Integer`
+
+## lifetimeDarkRitualClicks
+`Integer`
+
+## loginValidated
 `Boolean`
 
-## unixTimestamp
+## maxDps
+`Scientific`
+
+## mercenaries
+`Object`
+
+### _currentUids
+`null`
+
+### hasGivenOneFreeRecruit
+`Boolean`
+
+### mercRoller
+`Object`
+
+#### numUses
+`Integer`
+
+#### seed
+`Integer`
+
+### mercenaries
+`Object`
+
+The key is the index and the value is an `Object` in the following form:
+
+#### assetId
+`Integer`
+
+The appearance of the mercenary.
+
+#### bonusLives
+`Integer`
+
+Amount of bonus lives this mercenary currently has.
+
+#### createTime
+`Integer`
+
+#### creationEquipped
+`Boolean`
+
+#### experience
+`Float`
+
+#### hasUpdate
+`Boolean`
+
+#### lastQuestDuration
+`Integer`
+
+Number of seconds the last quest lasted for.
+
+#### lastQuestGoldRewardQty
+`Integer`
+
+#### lastQuestRewardQty
+`Float`
+
+#### lastQuestRewardType
+`Integer`
+
+#### lastQuestStartTime
+`Integer`
+
+Timestamp of when the last quest was started.
+
+#### lastQuestSuccessChance
+`Float`
+
+#### level
+`Integer`
+
+#### name
+`String`
+
+#### phrase1
+`String`
+
+Death phrase.
+
+#### phrase2
+`String`
+
+Death phrase.
+
+#### questResult
+`Integer`
+
+#### rarity
+`Integer`
+
+#### roller
+`Object`
+
+numUses: `Integer`
+
+seed: `Integer`
+
+#### slotId
+`Integer`
+
+The order this mercenary appears in inside the mercenaries tab. Zero-indexed.
+
+#### statId
+`Integer`
+
+#### timeToDie
+`Integer`
+
+Number of seconds on quest before this mercenary dies.
+
+#### updateChecked
+`Boolean`
+
+### questOptions
+`Object`
+
+### questRoller
+`Object`
+
+#### numUses
+`Integer`
+
+#### seed
+`Integer`
+
+### startRecruitTime
+`Boolean`
+
+## mercenaryCount
+`Integer`
+
+## mostClicksPerSecond
+`Integer`
+
+## mostCritsPerSecond
+`Integer`
+
+## musicEnabled
+`Boolean`
+
+## numAscensionsThisTranscension
+`Integer`
+
+## numPageLoads
+`null`
+
+## numRaidsToday
 `Integer`
 
 ## numWorldResets
@@ -957,119 +695,16 @@ Time of the most recent transcension.
 
 Number of ascensions.
 
-## lastPrimalLevelChecked
-`Integer`
-
-## epicHeroSeed
-`Integer`
-
-## dlcAutoclickers
-`Integer`
-
-## shouldShowHeroDps
-`Boolean`
-
-This corresponds to "Show individual hero DPS." in the settings.
-
-## numAscensionsThisTranscension
-`Integer`
-
-## shouldAutoSetHeroDpsDisplay
-`Boolean`
-
-## autoclickers
-`Integer`
-
-## purchaseRecord
-`Object`
-
-## goldSacrificedInWorldResets
-`null`
-
-## highestHistoricAncients
-`Integer`
-
-## dpsSacrificedInWorldResets
-`null`
-
-## didClickOnAncientsTab
-`Boolean`
-
-Reset every transcension.
-
-## skillCooldowns
-`Object`
-
-The key is the skill ID, the value is the timestamp the skill comes off
-cooldown (or 0 if it already is off cooldown).
-
-## didClickOnTranscendenceTab
-`Boolean`
-
-Resets every transcension.
-
-## settings
-`null`
-
-## didClickOnMercenaryTab
-`Boolean`
-
-Resets every transcension.
-
-## skillFreeClicksEnd
-`Integer`
-
-## skillFreeClicks
-`Integer`
-
-## didClickOnShopTab
-`Boolean`
-
-Deprecated?
-
-## skillDpsMultiplier
-`Float`
-
-## freeRespecs
-`Integer`
-
-## skillDpsMultiplierEnd
-`Integer`
-
-## autoclickerSkins
-`Object`
-
-The key is the skin ID, the value is whether or not the player has the skin.
-If the player does not have the skin, it won't show in this object anyway.
-
 ## numberDisplayMode
 `Boolean`
 
 True if "Always use scientific notation." is checked. False otherwise.
 
-## skillCriticalClickChance
-`Float`
-
-Critical click chance granted from skills (currently only lucky strikes).
-
-## currentAutoclickerSkin
+## numberOfTranscensions
 `Integer`
 
-Value is skin ID.
-
-## accountId
-`null`
-
-## skillCriticalClickChanceEnd
-`Integer`
-
-Timestamp of when the crit bonus from skills ends.
-
-## appliedDLC
+## outsiderEntrySizes
 `Object`
-
-## isBanned
-`Boolean`
 
 ## outsiders
 `Object`
@@ -1081,48 +716,417 @@ Timestamp of when the crit bonus from skills ends.
 
 The key is the outsider ID, the value is an `Object` in the following form:
 
-#### level
-`Integer`
-
 #### id
 `Integer`
 
-#### uid
+#### level
 `Integer`
 
 #### spentAncientSouls
 `Integer`
 
-## uid
-`null`
-
-## currentActivityOrderNumber
-`null`
-
-## skillGoldBonusEnd
+#### uid
 `Integer`
 
-Timestamp of when the gold bonus from skills ends.
+## paidForRubyMultiplier
+`Boolean`
+
+Whether the player has the 2x damage bonus from the shop.
+
+## passwordHash
+`String`
+
+## persistentVars
+
+### allVisualEffects
+`Boolean`
+
+### bloopCoinRequestDonationTimestamp
+`Integer`
+
+### bloopCoins
+`Integer`
+
+### bossDefeatHelpTimestamp
+`Integer`
+
+### christmasSaleBuys
+`Integer`
+
+### cooldownNotificationsEnabled
+`Boolean`
+
+### didOpenAncientScreen
+`Boolean`
+
+### didOpenOnlineSave
+`Boolean`
+
+### didOpenShop
+`Boolean`
+
+### didPurchaseSkill
+`Boolean`
+
+### didShowTranscendenceNews
+`Boolean`
+
+### didUseSkill
+`Boolean`
+
+### fullscreen
+`Boolean`
+
+### goldNotificationsEnabled
+`Boolean`
+
+### halloweenSaleBuys
+`Integer`
+
+### karma
+`Integer`
+
+### mercenaryNotificationsEnabled
+`Boolean`
+
+### nextRatePromptTime
+`Integer`
+
+### preloadAds
+`Boolean`
+
+### previousEventAdsTimestamp
+`Integer`
+
+### previousMainScreenAdsTimestamp
+`Integer`
+
+### previousPermaAdsTimestamp
+`Integer`
+
+### pwbClosest
+`Integer`
+
+### pwbHelp
+`Boolean`
+
+### pwbPlayed
+`Integer`
+
+### pwbWon
+`Integer`
+
+### showBossDefeatHelp
+`Boolean`
+
+### showGildedHeroHelp
+`Boolean`
+
+### showItemHelp
+`Boolean`
+
+### showLevel100Help
+`Boolean`
+
+### showPrimalBossHelp
+`Booolean`
+
+## personalSales
+`Object`
+
+### _largestPurchaseBundleId
+`Integer`
+
+### _numHistoricSales
+`Integer`
+
+### _saleEndTimestamp
+`Integer`
+
+### flashSalesEnabled
+`Boolean`
+
+### seasonalSalesEnabled
+`Boolean`
+
+## pretranscendentHighestFinishedZone
+`Integer`
+
+## prevLoginTimestamp
+`Integer`
+
+## primalNumberGenerator
+`Object`
+
+### numUses
+`Integer`
+
+### seed
+`Integer`
+
+## primalSouls
+`Scientific`
+
+## privateAdminMessages
+`Object`
+
+## purchaseHashes
+`Object`
+
+## purchaseRecord
+`Object`
+
+## purchasedGilds
+`Integer`
+
+## purchasedTitanFightExpTime
+`Integer`
+
+## rarestMercenaryEver
+`Integer`
 
 ## readPatchNumber
 `String`
 
 The latest version of the changelog the player has seen.
 
-## version
+## relicQuestsCompleted
 `Integer`
 
-## darkRitualClicks
+## relicsReceivedThisTranscension
+`Integer`
+
+## remoteQueue
+`null`
+
+## respondedToEmailSequelPrompt
+`Boolean`
+
+## respondedToSurvey
+`Boolean`
+
+This is about the Clicker Heroes 2 survey I think.
+
+## revision
+`null`
+
+## rubies
+`Integer`
+
+## rubyClickablesThisAscension
+`Integer`
+
+## rubyQuestsCompleted
+`Integer`
+
+## secondToLastSkillUsed
+`Integer`
+
+The skill that has its cooldown reduced by an hour when energised reload is
+used.
+
+## settings
+`null`
+
+## shouldAutoSetHeroDpsDisplay
+`Boolean`
+
+## shouldShowHeroDps
+`Boolean`
+
+This corresponds to "Show individual hero DPS." in the settings.
+
+## skillClickMultiplier
+`Float`
+
+## skillClickMultiplierEnd
+`Integer`
+
+## skillCooldowns
+`Object`
+
+The key is the skill ID, the value is the timestamp the skill comes off
+cooldown (or 0 if it already is off cooldown).
+
+## skillCriticalClickChance
+`Float`
+
+Critical click chance granted from skills (currently only lucky strikes).
+
+## skillCriticalClickChanceEnd
+`Integer`
+
+## skillDouble
+`Boolean`
+
+Whether energise is currently active or not.
+
+## skillDpsMultiplier
+`Float`
+
+## skillDpsMultiplierEnd
+`Integer`
+
+Timestamp of when the DPS bonus from skills ends.
+
+## skillFreeClicks
+`Integer`
+
+## skillFreeClicksEnd
+`Integer`
+
+## skillGoldBonus
+`Integer`
+
+## skillGoldBonusEnd
+`Integer`
+
+Timestamp of when the gold bonus from skills ends.
+
+## skillQuestsCompleted
+`Integer`
+
+## skillWildGold
+`Integer`
+
+## skillWildGoldEnd
+`Integer`
+
+## soulsSpent
+`Integer`
+
+## soundsEnabled
+`Boolean`
+
+## stageQuality
+`Boolean`
+
+Flash quality setting.
+
+## startTimestamp
+`Integer`
+
+## syncedGameServices
+`Boolean`
+
+## ticketsUsed
+`Object`
+
+## timelapses
+`Integer`
+
+## tinyMonsters
+`Boolean`
+
+## titanDamage
+`Scientific`
+
+## titanTypesDefeated
+`Object`
+
+## total5MinuteQuests
+`Integer`
+
+## totalBossKills
+`Integer`
+
+## totalClicks
+`Integer`
+
+## totalCreditsPurchased
+`null`
+
+## totalCrits
+`Integer`
+
+## totalGold
+`Scientific`
+
+The total amount of gold the player has ever earned.
+
+## totalGoldThisGame
+`Scientific`
+
+The amount of gold earned by the player this ascension.
+
+## totalHeroLevels
+`Integer`
+
+## totalHeroSouls
+`Scientific`
+
+## totalHeroSoulsFromAscensions
+`Scientific`
+
+## totalKills
+`Float`
+
+## totalMercenariesBuried
 `Integer`
 
 ## totalMercenariesRevived
 `Integer`
 
-## isCheater
+## totalMoneySpent
+`Float`
+
+Amount of money player has spent on the game.
+
+## totalPrimalsKilled
+`Integer`
+
+Time of the most recent transcension.
+
+## totalRelicsReceived
+`Integer`
+
+## totalUpgrades
+`Integer`
+
+## transcendent
 `Boolean`
 
-## lifetimeDarkRitualClicks
+## transcendentHighestFinishedZone
 `Integer`
 
-## totalMercenariesBuried
+## transcensionTimestamp
 `Integer`
+
+## transparentAutoclickerMode
+`Boolean`
+
+## treasureChestsKilled
+`Integer`
+
+## tutorialArrow
+`Integer`
+
+## uid
+`null`
+
+## uniqueId
+`String`
+
+## unixTimestamp
+`Integer`
+
+## upgrades
+`Object`
+
+The key is the upgrade ID, the value is maybe whether the player has purchased
+it or not (I have no idea).
+
+## usedSkills
+`Object`
+
+The key is the skill ID, the value is always `true`.
+The skills currently on cooldown. When not on cooldown, the skills will not
+be shown in the object.
+
+Whether the player has transcended or not.
+
+## version
+`Integer`
+
+## worldGoldBonus
+`null`
