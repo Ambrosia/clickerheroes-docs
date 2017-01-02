@@ -1,6 +1,6 @@
 # Save format
 
-Last updated version: 1.0e7
+Last updated version: 1.0e8 (Clickmas)
 
 The Clickerheroes save is a JSON object. Examples of this can be found [here](../saves).
 
@@ -127,6 +127,20 @@ Critical click chance when lucky strikes isn't active.
 
 ---
 
+### candyCanes
+`Integer`
+
+Number of candy canes the player currently has.
+
+---
+
+### candyCanesEarned
+`Integer`
+
+Number of candy canes the player has earned in total.
+
+---
+
 ### clickDpsPercent
 `Float`
 
@@ -134,6 +148,24 @@ Critical click chance when lucky strikes isn't active.
 
 ### clickMultiplier
 `Integer`
+
+---
+
+### clickmasRoller
+`Object`
+
+#### numUses
+`Integer`
+
+#### seed
+`Integer`
+
+---
+
+### clickmasRubiesEarned
+`Integer`
+
+Number of rubies earned by opening presents.
 
 ---
 
@@ -281,7 +313,12 @@ Number of purchased gilds that the player has been given this transcension.
 ### finishedPrimals
 `Object`
 
-The key is the zone number, the value is whether the primal has been defeated or not.
+The key is the zone number, the value is whether the primal has been defeated this ascension or not.
+
+---
+
+### forgeCoals
+`Integer`
 
 ---
 
@@ -563,6 +600,11 @@ True if "Always use scientific notation." is checked. False otherwise.
 
 ---
 
+### openedClickmasPresents
+`Integer`
+
+---
+
 ### outsiderEntrySizes
 `Object`
 
@@ -672,7 +714,7 @@ Whether the player has the 2x damage bonus from the shop.
 ### readPatchNumber
 `String`
 
-The latest version of the changelog the player has seen.
+The latest version of the changelog the player has seen. This is an empty string if the player has not seen the changelog yet.
 
 ---
 
@@ -1020,6 +1062,11 @@ Whether the player has transcended or not.
 ---
 
 ### unixTimestamp
+`Integer`
+
+---
+
+### unopenedClickmasPresents
 `Integer`
 
 ---
