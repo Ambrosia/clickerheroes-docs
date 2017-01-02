@@ -54,36 +54,30 @@ The highest zone the player has been to across all transcensions.
 ## ancients
 `Object`
 
-### rerollSoulsSpent
-`Integer`
+### _currentUids
+`null`
 
 ### ancients
 `Object`
 
 The key is the ancient ID, the value is an `Object` in the following form:
 
-#### locked
-`Boolean`
-
 #### id
-`Integer`
-
-#### purchaseTime
 `Integer`
 
 #### level
 `Scientific`
 
+#### locked
+`Boolean`
+
+#### purchaseTime
+`Integer`
+
 #### spentHeroSouls
 `Scientific`
 
 #### uid
-`Integer`
-
-### _currentUids
-`null`
-
-### numRerolls
 `Integer`
 
 ### ancientsRoller
@@ -99,6 +93,12 @@ The key is the ancient ID, the value is an `Object` in the following form:
 `Object`
 
 ### numPurchased
+`Integer`
+
+### numRerolls
+`Integer`
+
+### rerollSoulsSpent
 `Integer`
 
 ## appliedDLC
