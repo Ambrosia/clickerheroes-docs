@@ -3,6 +3,8 @@
 ### _currentUids
 `null`
 
+---
+
 ### outsiders
 
 The key is the outsider ID, the value is an `Object` in the following form:

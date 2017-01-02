@@ -6,6 +6,8 @@
 #### heroes
 `Integer`
 
+---
+
 ### heroes
 `Object`
 

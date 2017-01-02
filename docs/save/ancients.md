@@ -3,6 +3,8 @@
 ### _currentUids
 `null`
 
+---
+
 ### ancients
 `Object`
 
@@ -35,14 +37,22 @@ The key is the ancient ID, the value is an `Object` in the following form:
 #### seed
 `Integer`
 
+---
+
 ### artificiallyRaisedAncients
 `Object`
+
+---
 
 ### numPurchased
 `Integer`
 
+---
+
 ### numRerolls
 `Integer`
+
+---
 
 ### rerollSoulsSpent
 `Integer`

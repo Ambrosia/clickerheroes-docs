@@ -5,6 +5,8 @@ AKA relics.
 ### _currentUids
 `Object`
 
+---
+
 ### ascensionItemsRoller
 `Object`
 
@@ -13,6 +15,8 @@ AKA relics.
 
 #### seed
 `Integer`
+
+---
 
 ### bonusZoneRoller
 `Object`
@@ -25,15 +29,21 @@ This is to decide which zone the player gets their free ascension relic.
 #### seed
 `Integer`
 
+---
+
 ### equipmentSlots
 `Integer`
 
 Number of slots the player has, filled or not.
 
+---
+
 ### gotAscensionItem
 `Boolean`
 
 Whether the player got their free relic this ascension or not.
+
+---
 
 ### guildItemsRoller
 `Object`
@@ -43,6 +53,8 @@ Whether the player got their free relic this ascension or not.
 
 #### seed
 `Integer`
+
+---
 
 ### items
 `Object`
@@ -127,15 +139,19 @@ Whether the player has seen the relic's stats or not.
 #### upgradeCount
 `Integer`
 
-### slots
-`Object`
-
-The key is the slot number, the value is the item (relic) ID.
-
-#### items
-`Integer`
+---
 
 ### salvagePoints
 `Integer`
 
 Forge cores.
+
+---
+
+### slots
+`Object`
+
+The key is the slot number, the value is the item (relic) ID. Additionally, the object also has the following values:
+
+#### items
+`Integer`

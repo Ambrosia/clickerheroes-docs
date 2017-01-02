@@ -3,8 +3,12 @@
 ### _currentUids
 `null`
 
+---
+
 ### hasGivenOneFreeRecruit
 `Boolean`
+
+---
 
 ### mercRoller
 `Object`
@@ -14,6 +18,8 @@
 
 #### seed
 `Integer`
+
+---
 
 ### mercenaries
 `Object`
@@ -89,9 +95,11 @@ Death phrase.
 #### roller
 `Object`
 
-numUses: `Integer`
+##### numUses
+`Integer`
 
-seed: `Integer`
+##### seed
+`Integer`
 
 #### slotId
 `Integer`
@@ -109,8 +117,12 @@ Number of seconds on quest before this mercenary dies.
 #### updateChecked
 `Boolean`
 
+---
+
 ### questOptions
 `Object`
+
+---
 
 ### questRoller
 `Object`
@@ -120,6 +132,8 @@ Number of seconds on quest before this mercenary dies.
 
 #### seed
 `Integer`
+
+---
 
 ### startRecruitTime
 `Boolean`
