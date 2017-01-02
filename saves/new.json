@@ -1,0 +1,686 @@
+{
+  "abaddonMultiplier": 1,
+  "account": null,
+  "accountId": null,
+  "achievements": {},
+  "actionBar": {},
+  "activityCount": 3,
+  "activityRoller": null,
+  "adCampaign": null,
+  "adRetargetId": null,
+  "adRetargetTime": 0,
+  "allDpsMultiplier": 1,
+  "ancientEntrySizes": {},
+  "ancientSouls": 0,
+  "ancientSoulsTotal": 0,
+  "ancients": {
+    "_currentUids": null,
+    "ancients": {},
+    "ancientsRoller": null,
+    "artificiallyRaisedAncients": {},
+    "numPurchased": 0,
+    "numRerolls": 0,
+    "rerollSoulsSpent": "0"
+  },
+  "appliedDLC": {},
+  "autoclickerSkins": {
+    "1": true
+  },
+  "autoclickers": 0,
+  "baseClickDamage": 1,
+  "baseCriticalClickChance": 0,
+  "buyExactQuantity": false,
+  "candyCanes": 0,
+  "candyCanesEarned": 0,
+  "clickDpsPercent": 0,
+  "clickMultiplier": 1,
+  "clickmasRoller": {
+    "numUses": 0,
+    "seed": 1764660374
+  },
+  "clickmasRubiesEarned": 0,
+  "collectedAchievements": {},
+  "collectedRaidRewardDates": {},
+  "creationTimestamp": 1481380578888,
+  "criticalMultiplier": 10,
+  "currentActivityOrderNumber": null,
+  "currentAutoclickerSkin": 1,
+  "currentZoneHeight": 1,
+  "damageFloatersDisabled": false,
+  "darkRitualClicks": 0,
+  "debug": false,
+  "devGifts": {},
+  "didClickOnAncientsTab": false,
+  "didClickOnMercenaryTab": false,
+  "didClickOnShopTab": false,
+  "didClickOnTranscendenceTab": false,
+  "dlcAutoclickers": 0,
+  "dpsSacrificedInWorldResets": 0,
+  "email": "",
+  "epicHeroReceivedUpTo": 0,
+  "epicHeroSeed": 0,
+  "epicRoller": {
+    "numUses": 469,
+    "seed": 1528025810
+  },
+  "extraGildsAwarded": 0,
+  "finishedPrimals": {},
+  "forgeCoals": 0,
+  "freeRespecs": 0,
+  "gold": "0",
+  "goldFloatersDisabled": false,
+  "goldMultiplier": 1,
+  "goldQuestsCompleted": 0,
+  "goldSacrificedInWorldResets": 0,
+  "hasJoinedGuild": false,
+  "hasSeenNewShopItems": true,
+  "hasSeenZone100Tip": null,
+  "heroCollection": {
+    "_currentUids": {
+      "heroes": 46
+    },
+    "heroes": {
+      "1": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 1,
+        "level": 0,
+        "locked": true,
+        "uid": 1
+      },
+      "10": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 10,
+        "level": 0,
+        "locked": true,
+        "uid": 10
+      },
+      "11": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 11,
+        "level": 0,
+        "locked": true,
+        "uid": 11
+      },
+      "12": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 12,
+        "level": 0,
+        "locked": true,
+        "uid": 12
+      },
+      "13": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 13,
+        "level": 0,
+        "locked": true,
+        "uid": 13
+      },
+      "14": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 14,
+        "level": 0,
+        "locked": true,
+        "uid": 14
+      },
+      "15": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 15,
+        "level": 0,
+        "locked": true,
+        "uid": 15
+      },
+      "16": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 16,
+        "level": 0,
+        "locked": true,
+        "uid": 16
+      },
+      "17": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 17,
+        "level": 0,
+        "locked": true,
+        "uid": 17
+      },
+      "18": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 18,
+        "level": 0,
+        "locked": true,
+        "uid": 18
+      },
+      "19": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 19,
+        "level": 0,
+        "locked": true,
+        "uid": 19
+      },
+      "2": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 2,
+        "level": 0,
+        "locked": true,
+        "uid": 2
+      },
+      "20": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 20,
+        "level": 0,
+        "locked": true,
+        "uid": 20
+      },
+      "21": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 21,
+        "level": 0,
+        "locked": true,
+        "uid": 21
+      },
+      "22": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 22,
+        "level": 0,
+        "locked": true,
+        "uid": 22
+      },
+      "23": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 23,
+        "level": 0,
+        "locked": true,
+        "uid": 23
+      },
+      "24": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 24,
+        "level": 0,
+        "locked": true,
+        "uid": 24
+      },
+      "25": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 25,
+        "level": 0,
+        "locked": true,
+        "uid": 25
+      },
+      "26": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 26,
+        "level": 0,
+        "locked": true,
+        "uid": 26
+      },
+      "27": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 27,
+        "level": 0,
+        "locked": true,
+        "uid": 27
+      },
+      "28": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 28,
+        "level": 0,
+        "locked": true,
+        "uid": 28
+      },
+      "29": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 29,
+        "level": 0,
+        "locked": true,
+        "uid": 29
+      },
+      "3": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 3,
+        "level": 0,
+        "locked": true,
+        "uid": 3
+      },
+      "30": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 30,
+        "level": 0,
+        "locked": true,
+        "uid": 30
+      },
+      "31": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 31,
+        "level": 0,
+        "locked": true,
+        "uid": 31
+      },
+      "32": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 32,
+        "level": 0,
+        "locked": true,
+        "uid": 32
+      },
+      "33": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 33,
+        "level": 0,
+        "locked": true,
+        "uid": 33
+      },
+      "34": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 34,
+        "level": 0,
+        "locked": true,
+        "uid": 34
+      },
+      "35": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 35,
+        "level": 0,
+        "locked": true,
+        "uid": 35
+      },
+      "36": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 36,
+        "level": 0,
+        "locked": true,
+        "uid": 36
+      },
+      "37": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 37,
+        "level": 0,
+        "locked": true,
+        "uid": 37
+      },
+      "38": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 38,
+        "level": 0,
+        "locked": true,
+        "uid": 38
+      },
+      "39": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 39,
+        "level": 0,
+        "locked": true,
+        "uid": 39
+      },
+      "4": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 4,
+        "level": 0,
+        "locked": true,
+        "uid": 4
+      },
+      "40": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 40,
+        "level": 0,
+        "locked": true,
+        "uid": 40
+      },
+      "41": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 41,
+        "level": 0,
+        "locked": true,
+        "uid": 41
+      },
+      "42": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 42,
+        "level": 0,
+        "locked": true,
+        "uid": 42
+      },
+      "43": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 43,
+        "level": 0,
+        "locked": true,
+        "uid": 43
+      },
+      "44": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 44,
+        "level": 0,
+        "locked": true,
+        "uid": 44
+      },
+      "45": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 45,
+        "level": 0,
+        "locked": true,
+        "uid": 45
+      },
+      "5": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 5,
+        "level": 0,
+        "locked": true,
+        "uid": 5
+      },
+      "6": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 6,
+        "level": 0,
+        "locked": true,
+        "uid": 6
+      },
+      "7": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 7,
+        "level": 0,
+        "locked": true,
+        "uid": 7
+      },
+      "8": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 8,
+        "level": 0,
+        "locked": true,
+        "uid": 8
+      },
+      "9": {
+        "damageMultiplier": "1",
+        "epicLevel": 0,
+        "id": 9,
+        "level": 0,
+        "locked": true,
+        "uid": 9
+      }
+    },
+    "maxSize": 256
+  },
+  "heroEntrySizes": {},
+  "heroSoulQuestsCompleted": 0,
+  "heroSouls": "0",
+  "heroSoulsSacrificed": "0",
+  "hideRelicPopups": false,
+  "highestFinishedZone": 0,
+  "highestFinishedZonePersist": 0,
+  "highestGold": "0",
+  "highestHistoricAncients": 0,
+  "highestMercenaryLevelEver": 0,
+  "historicRubies": 0,
+  "isBanned": false,
+  "isCheater": false,
+  "isTestUser": false,
+  "items": {
+    "_currentUids": null,
+    "ascensionItemsRoller": {
+      "numUses": 0,
+      "seed": 1764346798
+    },
+    "bonusZoneRoller": {
+      "numUses": 0,
+      "seed": 1764346798
+    },
+    "equipmentSlots": 4,
+    "gotAscensionItem": false,
+    "guildItemsRoller": {
+      "numUses": 0,
+      "seed": 1764346798
+    },
+    "items": {},
+    "salvagePoints": 0,
+    "slots": {}
+  },
+  "kongId": "",
+  "language": null,
+  "lastAdBonusTimestamp": null,
+  "lastGuildRankUpdatedTime": null,
+  "lastLoadTime": null,
+  "lastMiniGameStartTime": 0,
+  "lastPageLoadTime": null,
+  "lastPrimalLevelChecked": 1,
+  "lastPrimalLevelResult": false,
+  "lastRaidTimestamp": 0,
+  "lastSkillUsed": 0,
+  "latestBuildLoaded": 107,
+  "leeroyJenkinsBuried": 0,
+  "lifetimeDarkRitualClicks": 0,
+  "loginValidated": false,
+  "maxDps": "0",
+  "mercenaries": {
+    "_currentUids": null,
+    "hasGivenOneFreeRecruit": false,
+    "mercRoller": {
+      "numUses": 0,
+      "seed": 1528136921
+    },
+    "mercenaries": {},
+    "questOptions": {},
+    "questRoller": {
+      "numUses": 0,
+      "seed": 1764569020
+    },
+    "startRecruitTime": null
+  },
+  "mercenaryCount": 0,
+  "mostClicksPerSecond": 0,
+  "mostCritsPerSecond": 0,
+  "musicEnabled": true,
+  "numAscensionsThisTranscension": 0,
+  "numPageLoads": null,
+  "numRaidsToday": 0,
+  "numWorldResets": 0,
+  "numberDisplayMode": false,
+  "numberOfTranscensions": 0,
+  "openedClickmasPresents": 0,
+  "outsiderEntrySizes": {},
+  "outsiders": {
+    "_currentUids": null,
+    "outsiders": {
+      "1": {
+        "id": 1,
+        "level": 0,
+        "spentAncientSouls": 0,
+        "uid": 1
+      },
+      "2": {
+        "id": 2,
+        "level": 0,
+        "spentAncientSouls": 0,
+        "uid": 2
+      },
+      "3": {
+        "id": 3,
+        "level": 0,
+        "spentAncientSouls": 0,
+        "uid": 3
+      },
+      "4": {
+        "id": 4,
+        "level": 0,
+        "spentAncientSouls": 0,
+        "uid": 4
+      },
+      "5": {
+        "id": 5,
+        "level": 0,
+        "spentAncientSouls": 0,
+        "uid": 5
+      }
+    }
+  },
+  "paidForRubyMultiplier": false,
+  "passwordHash": "",
+  "persistentVars": {
+    "allVisualEffects": true,
+    "bloopCoinRequestDonationTimestamp": 0,
+    "bloopCoins": 0,
+    "bossDefeatHelpTimestamp": 0,
+    "christmasSaleBuys": 0,
+    "cooldownNotificationsEnabled": true,
+    "didOpenAncientScreen": false,
+    "didOpenOnlineSave": false,
+    "didOpenShop": false,
+    "didPurchaseSkill": false,
+    "didShowTranscendenceNews": false,
+    "didUseSkill": false,
+    "fullScreen": false,
+    "goldNotificationsEnabled": true,
+    "halloweenSaleBuys": 0,
+    "karma": 0,
+    "mercenaryNotificationsEnabled": true,
+    "nextRatePromptTime": 0,
+    "preloadAds": true,
+    "previousEventAdsTimestamp": 0,
+    "previousMainScreenAdsTimestamp": 0,
+    "previousPermaAdsTimestamp": 0,
+    "pwbClosest": 0,
+    "pwbHelp": false,
+    "pwbPlayed": 0,
+    "pwbWon": 0,
+    "showBossDefeatHelp": true,
+    "showGildedHeroHelp": true,
+    "showItemHelp": true,
+    "showLevel100Help": true,
+    "showPrimalBossHelp": true
+  },
+  "personalSales": {
+    "_largestPurchaseBundleId": 0,
+    "_numHistoricSales": 0,
+    "_saleEndTimestamp": 1481380578,
+    "flashSalesEnabled": false,
+    "seasonalSalesEnabled": true
+  },
+  "pretranscendentHighestFinishedZone": 0,
+  "prevLoginTimestamp": 1481380583056,
+  "primalNumberGenerator": {
+    "numUses": 0,
+    "seed": 1764346794
+  },
+  "primalSouls": "0",
+  "privateAdminMessages": {},
+  "purchaseHashes": {},
+  "purchaseRecord": {},
+  "purchasedGilds": 0,
+  "purchasedTitanFightExpTime": null,
+  "rarestMercenaryEver": 1,
+  "readPatchNumber": "",
+  "relicQuestsCompleted": 0,
+  "relicsReceivedThisTranscension": 0,
+  "remoteQueue": null,
+  "respondedToEmailSequelPrompt": false,
+  "respondedToSurvey": false,
+  "revision": null,
+  "rubies": 0,
+  "rubyClickablesThisAscension": 0,
+  "rubyQuestsCompleted": 0,
+  "secondToLastSkillUsed": 0,
+  "settings": null,
+  "shouldAutoSetHeroDpsDisplay": true,
+  "shouldShowHeroDps": false,
+  "skillClickMultiplier": 1,
+  "skillClickMultiplierEnd": 0,
+  "skillCooldowns": {},
+  "skillCriticalClickChance": 0,
+  "skillCriticalClickChanceEnd": 0,
+  "skillDouble": false,
+  "skillDpsMultiplier": 1,
+  "skillDpsMultiplierEnd": 0,
+  "skillFreeClicks": 0,
+  "skillFreeClicksEnd": 0,
+  "skillGoldBonus": 0,
+  "skillGoldBonusEnd": 0,
+  "skillQuestsCompleted": 0,
+  "skillWildGold": 0,
+  "skillWildGoldEnd": 0,
+  "soulsSpent": "0",
+  "soundsEnabled": true,
+  "stageQuality": true,
+  "startTimestamp": 1481380578890,
+  "syncedGameServices": false,
+  "ticketsUsed": "",
+  "timelapses": 0,
+  "tinyMonsters": false,
+  "titanDamage": "0",
+  "titanTypesDefeated": {},
+  "total5MinuteQuests": 0,
+  "totalBossKills": 0,
+  "totalClicks": 0,
+  "totalCreditsPurchased": null,
+  "totalCrits": 0,
+  "totalGold": "0",
+  "totalGoldThisGame": "0",
+  "totalHeroLevels": 0,
+  "totalHeroSouls": "0",
+  "totalHeroSoulsFromAscensions": "0",
+  "totalKills": 0,
+  "totalMercenariesBuried": 0,
+  "totalMercenariesRevived": 0,
+  "totalMoneySpent": null,
+  "totalPrimalsKilled": 0,
+  "totalRelicsReceived": 0,
+  "totalUpgrades": 0,
+  "transcendent": false,
+  "transcendentHighestFinishedZone": 0,
+  "transcensionTimestamp": 0,
+  "transparentAutoclickerMode": false,
+  "treasureChestsKilled": 0,
+  "tutorialArrow": 0,
+  "uid": null,
+  "uniqueId": "",
+  "unixTimestamp": 1481380582984,
+  "unopenedClickmasPresents": 0,
+  "upgrades": {
+    "106": false,
+    "132": false
+  },
+  "usedSkills": null,
+  "version": 7,
+  "worldGoldBonus": 0
+}
