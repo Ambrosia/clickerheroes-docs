@@ -1,5 +1,11 @@
 # Save format
 
+Last updated version: 1.0e7
+
+The Clickerheroes save is a JSON object. Examples of this can be found [here](../saves).
+
+The `Scientific` type is a number Clickerheroes uses to save huge numbers without losing precision. It's serialised as a `String` in the same form as you see in the game when numbers get bigger than 10,000* or when scientific notation is turned on. Note that 0 is serialised as "0" (without the exponent).
+
 ### abaddonMultiplier
 `Float`
 
